@@ -1,6 +1,5 @@
 from copy import deepcopy
 
-
 class Board:
     """
     self.board is a 2d array of booleans, where self.board[i][j] is true

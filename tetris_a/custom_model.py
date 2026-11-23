@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-from agent import DQNAgent
+from tetris_a.agent import DQNAgent
 
 class CUSTOM_AI_MODEL:
     def __init__(self):
@@ -11,7 +11,7 @@ class CUSTOM_AI_MODEL:
             return
         
         self.agent = DQNAgent()
-        self.agent.load("saved_models/dqn_final.pth")
+        self.agent.load("tetris_a/saved_models/dqn_final.pth")
         self.agent.epsilon = 0.0
 
     def extract_state(self, board, piece):

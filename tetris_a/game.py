@@ -1,11 +1,11 @@
-from board import Board
+from tetris_a.board import Board
 from time import sleep
-from greedy import Greedy_AI
-from genetic import Genetic_AI
-from randomChoice import RandomChoice_NOT_AI
-from mcts import MCTS_AI
-from custom_model import CUSTOM_AI_MODEL
-from piece import Piece
+from tetris_a.greedy import Greedy_AI
+from tetris_a.genetic import Genetic_AI
+from tetris_a.randomChoice import RandomChoice_NOT_AI
+from tetris_a.mcts import MCTS_AI
+from tetris_a.custom_model import CUSTOM_AI_MODEL
+from tetris_a.piece import Piece
 import pygame
 
 BLACK = 0, 0, 0

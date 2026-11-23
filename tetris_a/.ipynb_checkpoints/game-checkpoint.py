@@ -1,7 +1,6 @@
-from board import Board
+from tetris_a.board import Board
 from time import sleep
 from greedy import Greedy_AI
-
 from genetic import Genetic_AI
 from randomChoice import RandomChoice_NOT_AI
 from mcts import MCTS_AI
@@ -12,7 +11,6 @@ import pygame
 BLACK = 0, 0, 0
 WHITE = 255, 255, 255
 GREEN = (0, 255, 0)
-
 
 class Game:
     def __init__(self, mode, agent=None):

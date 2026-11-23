@@ -1,7 +1,7 @@
 import numpy as np
 from copy import copy, deepcopy
 import random
-from genetic_helpers import *
+from tetris_a.genetic_helpers import *
 
 
 class Genetic_AI:

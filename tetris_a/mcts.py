@@ -1,9 +1,9 @@
 import numpy as np
 from collections import defaultdict
-from board import Board
+from tetris_a.board import Board
 from copy import deepcopy
-from piece import Piece
-from greedy import Greedy_AI
+from tetris_a.piece import Piece
+from tetris_a.greedy import Greedy_AI
 
 """
 Performs MCTS to return the best move

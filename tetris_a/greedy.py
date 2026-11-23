@@ -1,8 +1,8 @@
 from copy import copy, deepcopy
 import numpy as np
-from genetic_helpers import *
-from piece import BODIES, Piece
-from board import Board
+from tetris_a.genetic_helpers import *
+from tetris_a.piece import BODIES, Piece
+from tetris_a.board import Board
 from random import randint
 
 """
